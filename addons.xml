@@ -25,7 +25,7 @@
 
 <addon
 	id="script.streamztv"
-	version="0.0.10"
+	version="0.0.11"
 	name="Stream4k.net TV"
 	provider-name="stumpf"
 	>

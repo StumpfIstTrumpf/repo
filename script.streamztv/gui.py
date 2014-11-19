@@ -28,6 +28,17 @@ KEY_O = 61519
 KEY_L = 61516
 KEY_U = 61525
 
+KEY_0 = 61488
+KEY_1 = 61489
+KEY_2 = 61490
+KEY_3 = 61491
+KEY_4 = 61492
+KEY_5 = 61493
+KEY_6 = 61494
+KEY_7 = 61495
+KEY_8 = 61496
+KEY_9 = 61497
+
 SKIN_PLAYER = 4100
 SKIN_EPG_VISIBILITY_MARKER = 5000
 SKIN_TVINFO_VISIBILITY_MARKER = 5001
@@ -557,14 +568,14 @@ class Window(xbmcgui.WindowXML):
             self.show()                
         elif (actionID == ACTION_PREVIOUS_MENU):
             self.close()
-        elif (buttonCode == KEY_G or actionID == ACTION_KONTEXT):
+        elif (buttonCode == KEY_G or actionID == ACTION_KONTEXT or buttonCode == KEY_5):
             if(self.modus == "EPG"):
                 self.modus = "Full"            
             elif(self.modus == "Full"):
                 self.modus = "EPG"
                 self.onGuideButton()
             self.redraw()
-        elif (actionID ==  ACTION_SHOW_INFO):
+        elif (actionID ==  ACTION_SHOW_INFO or buttonCode == KEY_2):
             if(self.info == True):
                 self.hideinfo()  
                 self.info = False
@@ -581,14 +592,13 @@ class Window(xbmcgui.WindowXML):
                 self.player.playselected((self.player.Count()-1))
             else:
                 self.player.playprevious()
-        elif (buttonCode == KEY_U):
+        elif (buttonCode == KEY_U or buttonCode == KEY_3):
             self.player.playselected(self.player.Index())
-        elif (buttonCode == KEY_L):
+        elif (buttonCode == KEY_L or buttonCode == KEY_4):
             #Playlist
-            print "test"
             xbmc.executebuiltin( "XBMC.ActivateWindow(10028)" )
             #print xbmcaddon.Addon().getAddonInfo('path')+ "\resources\skins\Default\720p\test.xml"
-        elif (buttonCode == KEY_O):
+        elif (buttonCode == KEY_O or buttonCode == KEY_1):
             self.reloadplaylist()
 
 
