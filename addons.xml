@@ -40,7 +40,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 	    <language>de</language>
-		<summary>Das Neuste Plugin von Stream4k.net</summary>
+		<summary>Das EPG Plugin von Stream4k.net</summary>
 		<description>Stream4k.net TV - Diese Addon soll dir das Gefühl eines Fernsehers geben.</description>
 		<platform>all</platform>
 	</extension>
