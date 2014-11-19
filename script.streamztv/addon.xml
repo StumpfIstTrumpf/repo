@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
 	id="script.streamztv"
-	version="0.0.9"
+	version="0.0.10"
 	name="Stream4k.net TV"
 	provider-name="stumpf"
 	>
