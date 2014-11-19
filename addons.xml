@@ -2,7 +2,7 @@
 <addons>
 <addon
 	id="plugin.video.streamzto"
-	version="0.3.0beta"
+	version="0.3.0"
 	name="Stream4k.net"
 	provider-name="stumpf"
 	>
@@ -25,7 +25,7 @@
 
 <addon
 	id="script.streamztv"
-	version="0.0.9alpha"
+	version="0.0.9"
 	name="Stream4k.net TV"
 	provider-name="stumpf"
 	>
