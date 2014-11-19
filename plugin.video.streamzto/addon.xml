@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
 	id="plugin.video.streamzto"
-	version="0.3.0 beta"
+	version="0.3.0beta"
 	name="Stream4k.net"
 	provider-name="stumpf"
 	>
