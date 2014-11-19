@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.streamzto"
+	version="0.3.0 beta"
+	name="Stream4k.net"
+	provider-name="stumpf"
+	>
+	<requires> 
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="streamz.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	    <language>de</language>
+		<summary>Nette Grüße von Stream4k.net</summary>
+		<description>Stream4k.net - Mit diesem Addon kannst du ohne Probleme die Streams von Stream4k.net angucken, völlig unkopliziert via XBMC.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
